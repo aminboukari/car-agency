@@ -31,12 +31,12 @@ It includes a clean design, responsive layout, and a contact form with validatio
 
 ## 🚀 Live Demo
 
-(Add your GitHub Pages link here)
+https://aminboukari.github.io/car-agency/
 
 ## ⚙️ How to Run
 
 1. Clone the repository:
-   git clone https://github.com/your-username/car-agency.git
+   git clone https://github.com/aminboukari/car-agency.git
 
 2. Open the project folder
 
