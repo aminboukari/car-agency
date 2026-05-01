@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- TITLE -->
+    <title>CarTunisia Agency</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="images/agency.jpg" />
+
+    <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- GOOGLE FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!--  NAVBAR  -->
+<header class="navbar">
+  <div class="logo">Agency_Car</div>
+
+  <button class="nav-toggle" id="togglebtn" aria-label="Toggle menu">
+    <i class="fas fa-bars" id="open"></i>
+    <i class="fas fa-xmark" id="close"></i>
+  </button>
+
+  <nav class="nav" id="navMenu">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#cars">Cars</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+    <!--  HERO  -->
+    <section id="home" class="section hero">
+      <div class="hero-text">
+        <h1>Premium Car Rental in Tunisia 🚗</h1>
+        <p>Fast booking • Best prices • Trusted agency</p>
+      </div>
+    </section>
+
+    <!--  ABOUT  -->
+    <section id="about" class="about section">
+  <div class="container">
+    <h2>About Us</h2>
+
+    <p>
+      We are <strong>CarTunisia Agency</strong>, a trusted car rental company
+      based in Tunisia, offering a wide range of modern and comfortable vehicles
+      for all your needs — business trips, vacations, and daily transport.
+    </p>
+
+    <p>
+      Our mission is to provide <strong>fast, safe, and affordable</strong> car
+      rental services with 24/7 customer support and instant booking confirmation.
+    </p>
+
+    <p>
+      With locations across major cities in Tunisia, we guarantee
+      <strong>on-time delivery</strong>, well-maintained cars, and a smooth rental
+      experience from start to finish.
+    </p>
+
+    <!-- optional highlight -->
+    <div class="about-highlights">
+      <div class="highlight">🚗 50+ Cars Available</div>
+      <div class="highlight">⚡ Instant Booking</div>
+      <div class="highlight">📍 All Tunisia Coverage</div>
+      <div class="highlight">🛡️ Full Insurance Options</div>
+    </div>
+  </div>
+</section>
+
+    <!--  SERVICES  -->
+    <section class="section services">
+      <div class="container">
+        <h2>Our Services</h2>
+
+        <div class="grid3">
+          <div class="box">🚗 Car Rental</div>
+          <div class="box">📍 Delivery Anywhere</div>
+          <div class="box">⚡ Instant Booking</div>
+        </div>
+      </div>
+    </section>
+
+    <!--  CARS  -->
+    <section id="cars" class="section cars">
+      <div class="container">
+        <h2>Our Fleet</h2>
+
+        <div class="grid">
+          <div class="card">
+            <img src="images/hyundai.png" alt="Hyundai i20" />
+            <h3>Hyundai i20</h3>
+            <p>120 TND / day</p>
+          </div>
+
+          <div class="card">
+            <img src="images/renault.png" alt="Renault Clio" />
+            <h3>Renault Clio</h3>
+            <p>130 TND / day</p>
+          </div>
+
+          <div class="card">
+            <img src="images/Peugeot.png" alt="Peugeot 208" />
+            <h3>Peugeot 208</h3>
+            <p>140 TND / day</p>
+          </div>
+
+          <div class="card">
+            <img src="images/bmw.png" alt="BMW Série 3" />
+            <h3>BMW Série 3</h3>
+            <p>250 TND / day</p>
+          </div>
+
+          <div class="card">
+            <img src="images/audi.png" alt="Audi A4" />
+            <h3>Audi A4</h3>
+            <p>270 TND / day</p>
+          </div>
+
+          <div class="card">
+            <img src="images/Golf.png" alt="Volkswagen Golf" />
+            <h3>Volkswagen Golf</h3>
+            <p>180 TND / day</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+
+        <form id="form">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Full Name"
+            required
+          />
+          <small class="error"></small>
+
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+          <small class="error"></small>
+
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Message"
+            required
+          ></textarea>
+          <small class="error"></small>
+
+          <button type="submit">Send Message</button>
+
+          <p id="success"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <p>© 2026 CarTunisia Agency</p>
+    </footer>
+
+    <!-- MAIN JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
